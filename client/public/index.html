@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Tomas Tinto Porfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <section id="inicio">
+      <div class ="contenido">
+        <header>
+          <div class="contenido-header">
+           <h1>TT</h1>
+           <nav id="nav" class="">
+            <ul id="links">
+             <li><a href="#inicio" class ="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+             <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+             <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+             <li><a href="#porfolio" onclick="seleccionar(this)">PORFOLIO</a></li>
+             <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+            </ul>
+           </nav>
+
+           <!-- iconos del menu-->
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div  class="redes">
+          <a href="https://wa.me/1161263966"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/TomasTinto1234"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/tomas_tinto/" p={0}><i class="fa-brands fa-instagram"></i></a>
+          <!-- <a href="#"></a> -->
+          </div>
+          </div>
+        </header>
+          <div  class="presentacion">
+            <p class="bienvenida">Bienvenidos</p>
+            <h2>Soy <span>Tomas Tinto</span>, Desarrolador Web</h2>
+            <p class="descripcion"> HTML || CSS || JavaScript || React || Redux || Node || Express || PostgresSQL || MongoDB || SCRUM</p>
+              <a href="#portfolio"> Ir al Porfolio</a>
+            </div>
+      </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+          <img src="img/94464195.jpg" alt="">
+      </div>
+      <div class="sobremi">
+          <p class="titulo-seccion">Sobre Mi</p>
+          <h2>Hola, Soy <span>Tomas Tinto</span> </h2>
+          <h3>Desarrollador Web</h3>
+          <p>Estudiante de tecnología, en busca de mi primer puesto en un área de desarrollo, para perfeccionar mis habilidades y contribuir a la empresa con mis habilidades tecnológicas.</p>
+          <p>Espero desafiar mi autoaprendizaje de nuevos sistemas de trabajo y nuevas tecnologías mientras aplico mis conocimientos.</p>
+          <a href="https://www.canva.com/design/DAFLwglIoTI/Tu1ccDvpVfnNM_lpGoCPMw/view?utm_content=DAFLwglIoTI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Descargar CV</a>
+      </div>
+  </section>
+  <!-- SECCION S E R V I C I O S -->
+  <section id="servicios">
+    <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"> <i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de Sitios Web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <p>desarrollo full de Sitios Web</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-brands fa-square-js"></i></span>
+            <h4>JavaScript</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Express, </li>
+                <li> Node, </li>
+                <li> React, </li>
+                <li> Redux</li>
+            </ul>
+            <p>tecnologías de React</p>
+        </div>
+        
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-database"></i></span>
+          <h4>Base De Datos</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>PostgresSQL,</li>
+                <li> MongoDB,</li>
+                <li> PgAdmin4</li>
+            </ul>
+            <p>manejo de base de datos</p>
+        </div>
+      </div>
+</section>
+
+      <!-- SECCION H A B I L I D A D E S -->
+      <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+    </div>
+ <!-- SECCION PORTAFOLIO -->
+ <section id="portfolio">
+  <h3 class="titulo-seccion"><a href="https://github.com/TomasTinto1234">Mis Proyectos<i class="fa-brands fa-github"></i></a></h3>
+  <div class="fila">
+    <div class="proyecto">
+      <div class="overlay"></div>
+      <img src="img/pi-lookhouse.jpeg" alt="">
+      <div class="info">
+          <h4><a href="https://github.com/NicoSeper89/Proyecto-Final-">Proyecto Grupal LookHouse</a></h4>
+          <p>Diseño Web</p>
+      </div>
+  </div>
+      <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/pi-dogs.jpeg" alt="">
+          <div class="info">
+              <h4>Proyecto Individual Dogs</h4>
+              <p>Diseño Web</p>
+          </div>
+      </div>
+      <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/pi-videogames.jpeg" alt="">
+          <div class="info">
+              <h4>Proyecto Individual Videogames</h4>
+              <p>Diseño Web</p>
+          </div>
+      </div>
+      <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/pi-pokemons.jpeg" alt="">
+          <div class="info">
+              <h4>Proyecto Individual Pokemons</h4>
+              <p>Diseño Web</p>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+   <!-- SECCTION C O N T A C T -->
+   <section id="contacto">
+    <h3 class="titulo-seccion"><a href="https://wa.me/1161263966">Contactame ahora<i class="fa-brands fa-whatsapp"></i></a> <a href="https://wa.me/1161263966"></a></h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                <input type="email" placeholder="Dirección de Email" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema..."  class="input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+            </div>
+
+            <button type="submit"  value="Enviar Mensaje" class="btn-enviar" onclick="onsubmit">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+<!-- SECCION FOOTER -->
+<footer>
+  <p>Porfolio Tomas Tinto - © 2022</p>
+  <div class="redes">
+      <a href="https://wa.me/1161263966"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/TomasTinto1234"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/tomas_tinto/"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+  </body>
+</html>
