@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#034666" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -41,7 +41,7 @@
              <li><a href="#inicio" class ="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
              <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
              <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
-             <li><a href="#porfolio" onclick="seleccionar(this)">PORFOLIO</a></li>
+             <li><a href="#portfolio" onclick="seleccionar(this)">PORFOLIO</a></li>
              <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
             </ul>
            </nav>
@@ -52,10 +52,10 @@
           </div>
 
           <div  class="redes">
-          <a href="https://wa.me/1161263966"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://github.com/TomasTinto1234"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.instagram.com/tomas_tinto/" p={0}><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/01161263966" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/TomasTinto1234" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/tomas_tinto/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           <!-- <a href="#"></a> -->
           </div>
           </div>
@@ -80,8 +80,48 @@
           <h3>Desarrollador Web</h3>
           <p>Estudiante de tecnología, en busca de mi primer puesto en un área de desarrollo, para perfeccionar mis habilidades y contribuir a la empresa con mis habilidades tecnológicas.</p>
           <p>Espero desafiar mi autoaprendizaje de nuevos sistemas de trabajo y nuevas tecnologías mientras aplico mis conocimientos.</p>
-          <a href="https://www.canva.com/design/DAFLwglIoTI/Tu1ccDvpVfnNM_lpGoCPMw/view?utm_content=DAFLwglIoTI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Descargar CV</a>
+          <a href="https://www.canva.com/design/DAFLwglIoTI/Tu1ccDvpVfnNM_lpGoCPMw/view?utm_content=DAFLwglIoTI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">Descargar CV</a>
       </div>
+  </section>
+  <!-- SECCION PORTAFOLIO -->
+  <section id="portfolio">
+   <h3 class="titulo-seccion"><a href="https://github.com/TomasTinto1234" target="_blank">Mis Proyectos<i class="fa-brands fa-github"></i></a></h3>
+   <div class="fila">
+     <div class="proyecto">
+       <div class="overlay"></div>
+      <a href="https://look-house.vercel.app/" target="_blank"><img src="img/pi-lookhouse.jpeg"  alt=""></a> 
+       <div class="info">
+           <h4><a href="https://look-house.vercel.app/" target="_blank">Proyecto Grupal LookHouse</a></h4>
+           <p>Diseño Web</p>
+       </div>
+   </div>
+       <div class="proyecto">
+           <div class="overlay"></div>
+           <a href="https://dogs-individual-proyect.vercel.app/" target="_blank"><img src="img/pi-dogs.jpeg" alt=""></a>
+           <div class="info">
+               <h4><a href="https://dogs-individual-proyect.vercel.app/" target="_blank">Proyecto Individual Dogs</a></h4>
+               <p>Diseño Web</p>
+           </div>
+       </div>
+       <div class="proyecto">
+           <div class="overlay"></div>
+           <a href="https://videogames-individual-proyect.vercel.app/" target="_blank">  <img src="img/pi-videogames.jpeg" alt=""></a>
+           <div class="info">
+               <h4> <a href="https://videogames-individual-proyect.vercel.app/" target="_blank">Proyecto Individual Videogames</a></h4>
+               <p>Diseño Web</p>
+           </div>
+       </div>
+       <div class="proyecto">
+           <div class="overlay"></div>
+           <a href="https://pokemon-individual-proyect.vercel.app/" target="_blank"><img src="img/pi-pokemons.jpeg" alt=""></a>
+           <div class="info">
+               <h4> <a href="https://pokemon-individual-proyect.vercel.app/" target="_blank">Proyecto Individual Pokemons</a></h4>
+               <p>Diseño Web</p>
+           </div>
+       </div>
+   </div>
+   </div>
+   </div>
   </section>
   <!-- SECCION S E R V I C I O S -->
   <section id="servicios">
@@ -130,7 +170,7 @@
         <div class="skill">
             <div class="info">
                 <p> <span class="lista"> </span>Html & Css</p>
-                <span class="porcentaje">90%</span>
+                <span class="porcentaje">95%</span>
             </div>
 
             <div class="barra">
@@ -140,7 +180,7 @@
         <div class="skill">
             <div class="info">
                 <p> <span class="lista"> </span>Javascript</p>
-                <span class="porcentaje">95%</span>
+                <span class="porcentaje">90%</span>
             </div>
 
             <div class="barra">
@@ -158,52 +198,12 @@
             </div>
         </div>
     </div>
- <!-- SECCION PORTAFOLIO -->
- <section id="portfolio">
-  <h3 class="titulo-seccion"><a href="https://github.com/TomasTinto1234">Mis Proyectos<i class="fa-brands fa-github"></i></a></h3>
-  <div class="fila">
-    <div class="proyecto">
-      <div class="overlay"></div>
-      <img src="img/pi-lookhouse.jpeg" alt="">
-      <div class="info">
-          <h4><a href="https://github.com/NicoSeper89/Proyecto-Final-">Proyecto Grupal LookHouse</a></h4>
-          <p>Diseño Web</p>
-      </div>
-  </div>
-      <div class="proyecto">
-          <div class="overlay"></div>
-          <img src="img/pi-dogs.jpeg" alt="">
-          <div class="info">
-              <h4>Proyecto Individual Dogs</h4>
-              <p>Diseño Web</p>
-          </div>
-      </div>
-      <div class="proyecto">
-          <div class="overlay"></div>
-          <img src="img/pi-videogames.jpeg" alt="">
-          <div class="info">
-              <h4>Proyecto Individual Videogames</h4>
-              <p>Diseño Web</p>
-          </div>
-      </div>
-      <div class="proyecto">
-          <div class="overlay"></div>
-          <img src="img/pi-pokemons.jpeg" alt="">
-          <div class="info">
-              <h4>Proyecto Individual Pokemons</h4>
-              <p>Diseño Web</p>
-          </div>
-      </div>
-  </div>
-  </div>
-  </div>
-</section>
    <!-- SECCTION C O N T A C T -->
    <section id="contacto">
-    <h3 class="titulo-seccion"><a href="https://wa.me/1161263966">Contactame ahora<i class="fa-brands fa-whatsapp"></i></a> <a href="https://wa.me/1161263966"></a></h3>
+    <h3 class="titulo-seccion"><a href="https://wa.me/1161263966" target="_blank">Contactame ahora<i class="fa-brands fa-whatsapp"></i></a> <a href="https://wa.me/1161263966"></a></h3>
     <div class="contenedor-form">
         <form action="">
-            <div class="fila mitad">
+            <!-- <div class="fila mitad">
                 <input type="text" placeholder="Nombre Completo *" class="input-mitad">
                 <input type="email" placeholder="Dirección de Email" class="input-mitad">
             </div>
@@ -212,9 +212,9 @@
             </div>
             <div class="fila">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
-            </div>
+            </div> -->
 
-            <button type="submit"  value="Enviar Mensaje" class="btn-enviar" onclick="onsubmit">Enviar Mensaje</button>
+             <button   value="Enviar Mensaje" class="btn-enviar"><a href="https://wa.me/1161263966" target="_blank">Enviar Mensaje</a></button>
         </form>
     </div>
 </section>
@@ -222,10 +222,10 @@
 <footer>
   <p>Porfolio Tomas Tinto - © 2022</p>
   <div class="redes">
-      <a href="https://wa.me/1161263966"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/TomasTinto1234"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.instagram.com/tomas_tinto/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/01161263966" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/tomas-tinto-320a85236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/TomasTinto1234" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/tomas_tinto/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
   </div>
 
 </footer>
