@@ -14,7 +14,7 @@ html {
 /* *********************/
 
 #inicio {
-    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondoPorfolio.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -289,7 +289,7 @@ html {
 /* *********************/
 
 .contenedor-skills {
-    background: linear-gradient( #beb802, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+    background: linear-gradient( #beb802, rgba(33, 16, 16, 0.8)), url("img/fondo-inicio.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
